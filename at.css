@@ -1,0 +1,218 @@
+body{
+    box-sizing: border-box;
+    background-color: #61677A;
+}
+.h .m1 img{
+    height: 300px;
+    width: 450px;
+    background-size: cover;
+    border-radius: 5%;
+}
+.i{
+    transition: 2s;
+}
+.i:hover{
+    transform: scale(1.2,1.2)
+}
+.h{
+    height: auto;
+    width: 75%;
+    margin:20px auto auto auto;
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.h .m1{
+    height: 350px;
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.h .m1 h1{
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 4em;
+    font-weight: 100;
+}
+.h .m2{
+    height: 1200px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.h .m3{
+    height: 300px;
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.inner1 img{
+    height:300px;
+    width: 300px;
+    border-radius: 2%;
+
+}
+.inner2 img{
+    height:300px;
+    width: 300px;
+    border-radius: 2%;
+
+}
+.h .m2 .inner1{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.h .m2 h1{
+    
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    font-weight: 100;
+    letter-spacing: 0.08cm;
+}
+.h .m2 .inner2{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h .m3 h1{
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 2em;
+    
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 50px;
+    padding: 30px;
+}
+
+.photo {
+    max-width: 31.333%;
+    padding: 0 10px;
+    height: 240px;
+}
+
+.h .m4{
+    background-color: #333333 ;
+    height: 50px ;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    
+    
+}
+
+button{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    color: rgb(243, 247, 247);
+    background-color: #171616;
+    font-size: large;
+    float: right;
+    text-align: center;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius:5px;
+    border-spacing: 10px;
+    
+
+
+}
+
+.logbtn{
+    background-color: #04aa6d;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+}
+
+.logbtn :hover{
+    opacity: 0.8;
+}
+
+header {
+    background-color: #f98d45 ;
+    color: rgb(255, 251, 251);
+    text-align: center;
+    width: 100%; 
+}
+
+.container{
+    padding: 20px;
+}
+
+.imgcontainer{
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar{
+    width: 40%;
+    border-radius: 50%;
+}
+
+form{
+    border: 3px solid #61677A;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+input[type=text],input[type=password]{
+    width: 100%;
+    padding: 15px 22px;
+    margin: 10px 0;
+   display: inline-block;
+   border: 1px solid #171616;
+   box-sizing: border-box;
+
+}
+
+.cancelbtn{
+    width: auto;
+    padding: 10px 20px;
+    background-color: #f44336;
+}
+
+span.psw{
+    float: left;
+    padding-top: 10px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+}
+.menu-item:last-child {
+    border-bottom: none;
+}
